@@ -255,10 +255,11 @@ h4 span{
 			position:absolute;
 			white-space:nowrap;
 			will-change:transform;
-			animation: marquee 38s linear infinite;
+			animation: marquee 30s linear infinite;
 			display:flex;
 			gap:10px;
 		}
+		
 	}
 }
 
