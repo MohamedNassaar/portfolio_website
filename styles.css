@@ -585,3 +585,19 @@ h3 {
 		}
 	}
 } 
+
+footer {
+	margin: auto auto -1%;
+	height: 2.5rem;
+    color: #5a5757;
+	max-width:1440px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #535657;
+	color: aliceblue;
+	font-size: 1.1rem;
+	@media (max-width:768px){
+		font-size: 0.8rem;
+	}
+}
