@@ -404,8 +404,8 @@ h3 {
 		display:grid;
 		grid-gap:30px;
 		grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(4, 1fr);
-		height:960px;
+		grid-template-rows: repeat(2, 1fr);
+		height:50vh;
 		@media(max-width:1024px){
 			grid-template-rows: repeat(8, 1fr);
 		}
@@ -416,7 +416,7 @@ h3 {
 			height:auto;
 		}
 		.bento-item {
-			padding:30px;
+			/* padding:30px; */
 			background-color: var(--base-100);
 			border-radius:15px;
 			position:relative;
@@ -437,7 +437,7 @@ h3 {
 			@media(max-width:768px){
 				height:240px;
 			}
-			&:nth-child(1) {
+			 &:nth-child(1) {
 				grid-column: span 2;
 				grid-row: span 2;
 				@media(max-width:1024px){
@@ -477,14 +477,14 @@ h3 {
 					grid-row: span 2;
 				}
 			}
-			&:nth-child(6) {
+			/* &:nth-child(6) {
 				grid-column: span 5;
 				grid-row: span 3;
 				@media(max-width:1024px){
 					grid-column: span 5;
 					grid-row: span 2;
 				}
-			}
+			}  */
 		}
 	}
 }
